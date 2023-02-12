@@ -9,7 +9,7 @@
 	<authentication-manager>
 		<authentication-provider>
 			<user-service>
-				<user name="admin" password="1234" authorities="hasRole(ROLE_ADMIN)" />
+				<user name="admin" password="1234" authorities="ROLE_ADMIN" />
 			</user-service>
 			<password-encoder ref="passwordEncoder" />
 		</authentication-provider>
